@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Wazdan Sans', sans-serif;
+}
+@media (min-width: 769px) {
+    .hero {
+        height: 100vh;
+    }
+}
+section {
+    padding:0px 1em;
+}
+.hero .info h1{
+    text-align: center;
+    font-size: 33px;
+    padding:50px 0px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.extra-info {
+    text-align: center;
+    padding:80px 0px;
+}
+.extra-info p {
+    padding-top:20px;
+    font-size: 22px;
+}
+.extra-info h2 {
+    text-align: center;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.social{
+    text-align: center;
+    padding: 0px 0px 100px;
+}
+.social-icon {
+    padding:0px 15px 0px;
+    width: 120px;
+}
+.logo {
+    text-align: center;
+    padding: 84px 0px;
+}
+.logo img {
+    width: 60%;
+    max-width: 600px;
+    height: auto;
+}
+.hero {
+    background: no-repeat url("./assets/bg.svg");
+}
+.hero-images {
+    text-align: center;
+}
+.hero-img {
+    width: 97%;
+    max-width: 700px;
+    height: auto;
+}
+@font-face {
+    font-family: 'Wazdan Sans';
+    src: url('./fonts/WazdanSans/WazdanSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Wazdan Sans';
+    src: url('./fonts/WazdanSans/WazdanSans-Medium.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Wazdan Sans';
+    src: url('./fonts/WazdanSans/WazdanSans-SemiBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Wazdan Sans';
+    src: url('./fonts/WazdanSans/WazdanSans-Bold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Wazdan Sans';
+    src: url('./fonts/WazdanSans/WazdanSans-ExtraBold.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
